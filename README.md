@@ -2,6 +2,12 @@
 
 This project uses Outlook as an example using a demonstration for reading and writing to mail, however by changing the manifest and javascript code, it would most likely work for all types of Office add-ins!
 
+## How to use:
+
+Simply download the project and run it on visual studio. This project template shows an example of how Blazor WASM can be used for an Outlook Add-in, as the main page will allow you to write to the body of the mail through a textbox when composing a mail, and also read the current body of a mail when either composing or reading mail.
+
+These features will only work if you use run them on an outlook client, so it is recommended that you use the taskpane in outlook to load the website in order for the demonstrations to work.
+
 ## Structure:
 
 Everything is the same as a regular Blazor WASM project, except under the wwwroot folder there is a JavaScript folder which stores JavaScript files that contains office 
